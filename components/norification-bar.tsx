@@ -1,12 +1,12 @@
 export default function NotificationBar() {
   return (
-    <div className="w-screen  bg-purple-900 h-10 flex items-center font-inter">
+    <div className="w-full bg-purple-900 h-10 flex items-center font-inter">
       <div className="flex justify-between w-6/12 mx-auto text-white	text-xs  ">
         <div className="flex justify-between  w-6/12  text-center font-semibold	">
           FREE delivery & 40% Discount for next 3 orders! Place your 1st order
           in.
         </div>
-        <div className="flex w-5/12">
+        <div className="flex w-6/12">
           <div className="w-2/5 opacity-70 font-medium">
             Until the end of the sale:
           </div>

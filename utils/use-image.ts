@@ -5,7 +5,7 @@ export default function useGetImage({
   dir,
 }: {
   src: string;
-  dir: "header" | "navbar";
+  dir: "header" | "navbar"|"category" | "footer" | "product" | "div.slick-list";
 }): string {
   return `/image/${dir}/` + src;
 }

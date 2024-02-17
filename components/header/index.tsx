@@ -8,7 +8,7 @@ import './style.css';
 import Slider from '../slider';
 export default function Header() {
   return (
-    <div className=' w-8/12 mx-auto flex flex-col justify-evenly gap-6 '>
+    <div className='w-8/12 mx-auto flex flex-col justify-evenly gap-6 '>
       <div className='flex flex-col gap-x-4 justify-between w-full items-center border-b-2'>
         <div className='flex justify-between w-full gap-x-4 items-center h-20'>
           <div className='flex justify-between w-1/5 items-center'>
@@ -105,7 +105,7 @@ export default function Header() {
           <div className='flex-1 w-1/4 flex gap-3 h-24' key={index}>
             <div className='self-end'>
               {' '}
-              <Image width='70' height='70' src={useGetImage({ src: policy.image, dir: 'header' })} alt={policy.heading} />
+              <Image width='100' height='100' src={useGetImage({ src: policy.image, dir: 'header' })} alt={policy.heading} />
             </div>
             <div>
               <h1 className='font-bold text-base'>{policy.heading}</h1>
