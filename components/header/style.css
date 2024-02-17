@@ -1,0 +1,24 @@
+.sale {
+  border-radius: 4px;
+  padding: 4px 6.153px 4px 6.5px;
+  background: linear-gradient(90deg, #dc2626 0%, #ea580c 100%);
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 10px; /* 100% */
+  letter-spacing: -0.3px;
+}
+
+.dssd {
+  primarycolor: rgb(32, 60, 40);
+
+  color: rgb(0, 0, 0);
+  color: rgb(18, 119, 120);
+  color: rgb(148, 193, 31);
+  color: rgb(19, 124, 125);
+  color: rgb(19, 123, 124);
+  color: rgb(154, 201, 32);
+}
